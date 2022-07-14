@@ -1,9 +1,7 @@
 <template>
   <div>
-  <h1> {{ ausgabe }} </h1>
   <h1> {{ count }} </h1>
-  <h1> {{point[0]}} </h1>
-  <button @click="calculateDistance"> LOOOOL </button>
+  <button @click="calculateDistance"> Berechnen </button>
   <br>
   <button @click="countUp"> Hochzähler </button>
   </div>
@@ -13,7 +11,6 @@
 
 import point from './point'
 import cities from './cities'
-var ausgabe = ""
 export default {
   name: 'geosoft_8',
   data(){
@@ -56,10 +53,6 @@ export default {
     
         distances[i] = d; // Speicherung der Distanz in einem Array
         console.log(d)
-
-        for(var j = 0; j < distances.length; j++) {
-
-        ausgabe = ausgabe + distances[j] + " Meter <br />";
 
       }
       
