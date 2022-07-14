@@ -49,3 +49,6 @@ Anleitung für Nutzer: Nutzung der Knöpfe auf der Seite ist selbsterklärend.
 ​
 13
 ///////////////////////////////////////////////////////////////////////////////////////
+
+
+Konsolenausgabe, da die Ausgabe auf der Seite nicht funktioniert hat.
