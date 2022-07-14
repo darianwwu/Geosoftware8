@@ -13,8 +13,6 @@ import cities from './components/cities'
 
 console.log(point)
 console.log(cities)
-console.log("hallo")
-
 
 export default {
   name: 'App',
